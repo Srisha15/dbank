@@ -85,6 +85,6 @@ document.querySelector("form").addEventListener("submit", async function (event)
 });
 
 async function update() {
-  const currentAmount = await dbank.checkBalance();  //checks balance 
+  const currentAmount = await dbank.checkBalance();  //checks balance...
   document.getElementById("value").innerText = Math.round(currentAmount * 100) / 100;  //rounded to two decimal places
 }

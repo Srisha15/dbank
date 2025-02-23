@@ -15,7 +15,7 @@ actor dBank{
   // Debug.print(debug_show(id));
 
   stable var startTime = Time.now();
-  startTime := Time.now();
+  // startTime := Time.now();
   Debug.print(debug_show(startTime));
 
 
